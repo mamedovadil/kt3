@@ -1,0 +1,16 @@
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+}
+.menu li {
+    cursor: pointer;
+    padding: 10px;
+}
+.menu .submenu {
+    display: none;
+    padding-left: 20px;
+}
+.menu .submenu .submenu {
+    padding-left: 40px;
+}
